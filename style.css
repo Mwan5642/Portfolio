@@ -19,6 +19,21 @@ body {
     font-weight: bold;
 }
 
+p {
+    font-size: 16px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: "Georgia", sans-serif;
+}
+
+a.font-black {
+    color: #000 !important; 
+}
+
 /*****************************
 
 ABOUT
@@ -41,7 +56,7 @@ ABOUT
 
 #about .font-primary {
     font-family: "Georgia", sans-serif;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: bold; 
     margin-top: 15px;
 
@@ -77,4 +92,28 @@ ABOUT
 
 #about .icons a {
     color: #000;
+}
+
+/**********************
+
+PROJECTS
+
+***********************/
+
+#projects {
+    margin: 60px auto;
+    width: 80%;
+}
+
+#projects h2 {
+    text-align: center;
+
+}
+
+#projects .card img {
+    width: 100%;
+}
+
+#projects .card-title {
+    font-weight: bold;
 }
