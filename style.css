@@ -10,10 +10,71 @@ body {
 
 .font-primary {
     color: #A42828;
+    font-family: "Georgia", sans-serif;
 
 }
 
 .title-icon {
     font-size: 40px;
     font-weight: bold;
+}
+
+/*****************************
+
+ABOUT
+
+******************************/
+
+#about {
+    margin: 60px auto;
+    max-width: 400px;
+    text-align: center;
+
+}
+
+#about img {
+    border-radius: 50%;
+    width: 200px;
+    margin-bottom: 10px;
+    
+}
+
+#about .font-primary {
+    font-family: "Georgia", sans-serif;
+    font-size: 35px;
+    font-weight: bold; 
+    margin-top: 15px;
+
+}
+
+#about .name {
+    font-size: 45px;
+    font-family: "Candara", sans-serif;
+}
+
+#about .vocation {
+    font-size: 25px;
+    color: #A8A8AB;
+    margin-bottom: 10px;
+}
+
+#about .skills {
+    font-size: 20px;
+    color: #A42828;
+    margin-bottom: 10px;
+}
+
+#about .email {
+    font-size: 20px;
+    margin-top: 14px;
+
+}
+
+#about .icons {
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+#about .icons a {
+    color: #000;
 }
